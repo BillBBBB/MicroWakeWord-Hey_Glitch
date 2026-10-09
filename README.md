@@ -3,7 +3,8 @@ Micro wake word "hey glitch" configured for home assistant voice preview
 
 
 Open the YAML in ESPHome Builder and add this to the bottom of the file. 
-
+<code>
 micro_wake_word:
   models:
     - model: https://github.com/BillBBBB/MicroWakeWord-Hey_Glitch/heyglitch.json
+</code>
